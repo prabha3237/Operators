@@ -1,0 +1,23 @@
+..
+You are given a temperature in Celsius. You need to convert it to Fahrenheit.
+Input and Output Format
+Input Format:
+A single integer celsius.
+Output Format:
+A single line containing the temperature in Fahrenheit.
+..
+celsius = int(input())
+fahrenheit = (celsius * 9 / 5) + 32
+print(fahrenheit)
+..
+0
+..
+32.0
+..
+25
+..
+77.0
+..
+100
+..
+212.0
